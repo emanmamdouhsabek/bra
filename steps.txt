@@ -25,6 +25,12 @@ git merge dev
 git push origin main
 git push origin :dev //delete from remote 
 git branch -d dev    //delete from local 
+git tag -a v1.4 -m "annotated tag by name v1.4"
+git push origin v1.4
+git tag
+git push origin --delete v1.4  // delete remote 
+git tag -d v1.4                //delete local 
+
 
 
 
