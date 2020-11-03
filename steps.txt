@@ -1,0 +1,12 @@
+mkdir task2
+cd task2
+git init 
+touch steps.txt 
+git add steps.txt
+git commit -m "step by step "
+git branch -m main
+git remote add origin https://github.com/emanmamdouhsabek/bra.git
+git push origin main
+
+
+
