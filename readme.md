@@ -11,8 +11,8 @@ It doesn’t do anything fancy
 
 '''
 
-foobar.pluralize('word')
-foobar.pluralize('goose')
-foobar.pluralize('phenomena')
+foobar.pluralize('word')/
+foobar.pluralize('goose')/
+foobar.pluralize('phenomena')/
 
 '''
