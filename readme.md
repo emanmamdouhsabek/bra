@@ -4,15 +4,24 @@ It doesn’t do anything fancy like change the font size
 ## installation 
 It doesn’t do anything fancy 
 
-' pip install foobar '
+` pip install foobar `
 
 
-## usage 
+## usage
+```
 
-'''
+foobar.pluralize('word')
+foobar.pluralize('goose')
+foobar.pluralize('phenomena')
+```
+##contribution
 
-foobar.pluralize('word')/
-foobar.pluralize('goose')/
-foobar.pluralize('phenomena')/
+The sky above the port was the color of television, tuned to a dead channel. It was a bright cold day in April,
 
-'''
+The sky above the port was the color of television, 
+
+## licence 
+[MIT](http://www.google.com)
+
+
+
