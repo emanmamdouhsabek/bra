@@ -4,9 +4,34 @@ git init
 touch steps.txt 
 git add steps.txt
 git commit -m "step by step "
+git push origin main
 git branch -m main
 git remote add origin https://github.com/emanmamdouhsabek/bra.git
 git push origin main
+touch eman 
+git add eman
+git commit -m "file by name eman "
+git push origin main
+git branch dev
+git branch test
+git checkout dev
+touch file1 file2
+git add file1 file2
+ git commit -m "create two file in branch dev"
+git push origin dev
+git push origin test
+git checkout main 
+git merge dev
+git push origin main
+git push origin :dev //delete from remote 
+git branch -d dev    //delete from local 
+
+
+
+
+
+
+
 
 
 
